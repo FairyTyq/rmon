@@ -14,7 +14,7 @@ class DevConfig:
     SQLALCHEMY_DATABASE_URI = 'sqlite://'
     TEMPLATES_AUTO_RELOAD = True
 
-class ProductionConfig(DevConfig):
+class ProductConfig(DevConfig):
     """ 
     生产环境配置
     """
